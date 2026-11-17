@@ -1,0 +1,1 @@
+{"start": 0, "events": [{"op": "poll", "offsets": [0, 3], "next": 4}, {"op": "done", "offset": 0}, {"op": "done", "offset": 3}, {"op": "commit", "next": 4}, {"op": "commit", "next": 0}, {"op": "cut", "label": "stale-store"}]}

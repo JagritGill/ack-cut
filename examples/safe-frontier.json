@@ -1,0 +1,13 @@
+{
+  "start": 100,
+  "events": [
+    {"op": "poll", "offsets": [100, 104, 105], "next": 106},
+    {"op": "done", "offset": 105},
+    {"op": "commit", "next": 100},
+    {"op": "cut", "label": "waiting"},
+    {"op": "done", "offset": 100},
+    {"op": "commit", "next": 104},
+    {"op": "done", "offset": 104},
+    {"op": "commit", "next": 106}
+  ]
+}

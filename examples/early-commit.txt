@@ -1,0 +1,9 @@
+records=3 completed=3 commits=2 unsafe_commits=1 regressed_commits=0
+gate=FAIL
+commit@3: committed=106 observed=106 safe=100 settled=1 skipped=2 replay=0 pending=0
+  unfinished below commit: [100, 104]; omitted=0
+cut@4 after-high-offset: committed=106 observed=106 safe=100 settled=1 skipped=2 replay=0 pending=0
+  unfinished below commit: [100, 104]; omitted=0
+commit@7: committed=106 observed=106 safe=106 settled=3 skipped=0 replay=0 pending=0
+cut@8 settled: committed=106 observed=106 safe=106 settled=3 skipped=0 replay=0 pending=0
+final@8: committed=106 observed=106 safe=106 settled=3 skipped=0 replay=0 pending=0

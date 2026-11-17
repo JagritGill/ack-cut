@@ -1,0 +1,1 @@
+{"start": 0, "events": [{"op": "poll", "offsets": [], "next": 5}, {"op": "commit", "next": 8}, {"op": "cut", "label": "beyond-coverage"}]}
